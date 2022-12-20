@@ -33,15 +33,15 @@
       "url": "_framework\/icudt_no_CJK.dat.br"
     },
     {
-      "hash": "sha256-liyFWuGBvp+\/\/Qpexhorb1PnB8AbUGqmct6PKOY2wTQ=",
+      "hash": "sha256-246Cu496avILVpcGNqAshlqi35a61c4smXVqPMM+7W4=",
       "url": "_framework\/blazor.boot.json.br"
     },
     {
-      "hash": "sha256-ISLnmaYGNY3WQ7IjntR5mHZJ7qag0LzqEElj7d5xVOM=",
+      "hash": "sha256-HjQGjUtltdvRIdOJZm9\/IOnYcXVN7gyVg8zE2JvRYSw=",
       "url": "_framework\/DelayedCertificateIssuingMachine.dll.br"
     },
     {
-      "hash": "sha256-+u1gv5xUJKeA7nPX6OmEv4cSMSA7rrwAAug9m3lXwTk=",
+      "hash": "sha256-8clxYszpfF0ZRUtuJJF9e7i+LAR0oQ\/OlsO8EBGj5+Q=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/System.Net.Primitives.dll.br"
     },
     {
-      "hash": "sha256-eSz2NenfvqfclWvWOEVVFdVs0FEomjngMbvtxkDJH0M=",
+      "hash": "sha256-9vPzNdFYW2apPkkoQnN4pNcIzT0FXkGnU5ehequO1OY=",
       "url": "_framework\/System.Private.CoreLib.dll.br"
     },
     {
@@ -133,7 +133,7 @@
       "url": "_framework\/System.Private.Uri.dll.br"
     },
     {
-      "hash": "sha256-Cf\/QKJ0QZDLVt6oBNrGIrC869i4nsVLxlFM8hnD49c8=",
+      "hash": "sha256-ypaTIeLwlv6y5lidbT0HMolsFIA27f\/vV6nTNNcnvVQ=",
       "url": "_framework\/System.Runtime.dll.br"
     },
     {
@@ -233,5 +233,5 @@
       "url": "brotliloader.min.js"
     }
   ],
-  "version": "+9nQwMyr"
+  "version": "YHXDDCzo"
 };

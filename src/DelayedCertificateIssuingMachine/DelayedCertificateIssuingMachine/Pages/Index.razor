@@ -2,4 +2,82 @@
 
 <PageTitle>Delayed Certificate Issuing Machine</PageTitle>
 
+<style>
+    .Button, .Input {
+        border: none;
+        background-image: linear-gradient(90deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+        color: white;
+    }
+</style>
+<style>
+    .Main {
+        display: grid;
+        grid-template-columns: 1fr 330px;
+    }
+</style>
+
 <h1>Delayed Certificate Issuing Machine</h1>
+<div class="Main">
+    <div class="MainPanel">
+        <div>
+            <iframe src="@fileURL" width="485.41019661px" height="300px">
+            </iframe>
+        </div>
+        <div>
+            <a href="@fileURL" download="Delayed Certificate">
+                <button class="Button">
+                    Download
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="RightPanel">
+        <div>
+            <h3>
+                Property
+            </h3>
+            <div>
+                <p>
+                    Publisher: <input type="text" @bind="@publisher" class="Input" />
+                </p>
+                <p>
+                    Publication Time: <input type="text" @bind="@publicationTime" class="Input" />
+                </p>
+                <p>
+                    Delay Time: <input type="text" @bind="@delayTime" class="Input" />
+                </p>
+            </div>
+        </div>
+        <div>
+            <h3>
+                Export
+            </h3>
+
+            <div>
+                <button onclick="@Export" class="Button">
+                    Export
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@code {
+    string publisher;
+    string publicationTime;
+    string delayTime;
+    string fileURL = "data:,Enter the properties and export.";
+    string fileText;
+
+    void Export()
+    {
+        fileText = $@"--Delayed Certificate--
+This certificate proves that something was delayed by {delayTime}.
+  {publicationTime}
+    {publisher}";
+
+        fileURL = $@"data:,{fileText}";
+    }
+    
+}
