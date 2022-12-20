@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z9K3pHQfhrA6OxMh91PPa5ht/hxWqgnbjmVUgdqvHH0=",
+  "Hash": "zgVDwGgDiEem9cg2MSO20CwmA765rNxe6xJS8JlPqBk=",
   "Source": "DelayedCertificateIssuingMachine",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kira_\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.1\\build\\net7.0\\blazor.webassembly.js"
+      "OriginalItemSpec": "C:\\Users\\kira_\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.0\\build\\net7.0\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\bin\\Release\\net7.0\\wwwroot\\_framework\\dotnet.7.0.0.ts3x2wmfjl.js",
@@ -187,23 +187,6 @@
       "OriginalItemSpec": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\build-gz\\4412a+f+.gz"
     },
     {
-      "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\build-gz\\7ANtZcKt.gz",
-      "SourceId": "DelayedCertificateIssuingMachine",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\bin\\Release\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
-    },
-    {
       "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\build-gz\\CUznhXUI.gz",
       "SourceId": "DelayedCertificateIssuingMachine",
       "SourceType": "Computed",
@@ -236,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\build-gz\\EHXFA9Ec.gz"
+    },
+    {
+      "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\build-gz\\LUh4VmXq.gz",
+      "SourceId": "DelayedCertificateIssuingMachine",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\bin\\Release\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\compress\\+gtJrQM6.br",
@@ -678,40 +678,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\linked\\System.Collections.dll"
-    },
-    {
-      "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\compress\\fxeVE+OJ.br",
-      "SourceId": "DelayedCertificateIssuingMachine",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Json.dll.br",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "br",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll"
-    },
-    {
-      "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\compress\\fxeVE+OJ.gz",
-      "SourceId": "DelayedCertificateIssuingMachine",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Json.dll.gz",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll"
     },
     {
       "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\compress\\G4t58QMI.br",
@@ -1834,23 +1800,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "obj\\Release\\net7.0\\linked\\System.Net.Http.dll"
-    },
-    {
-      "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll",
-      "SourceId": "DelayedCertificateIssuingMachine",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Json.dll",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll"
     },
     {
       "Identity": "C:\\GitHub\\DelayedCertificateIssuingMachine\\src\\DelayedCertificateIssuingMachine\\DelayedCertificateIssuingMachine\\obj\\Release\\net7.0\\linked\\System.Net.Primitives.dll",
