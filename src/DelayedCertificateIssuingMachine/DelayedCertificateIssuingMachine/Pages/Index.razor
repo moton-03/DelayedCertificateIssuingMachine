@@ -45,13 +45,6 @@
                         Export
                     </button>
                 </p>
-                <p>
-                    <a href="@fileURL" download="Delayed Certificate">
-                        <button class="Button">
-                            Download
-                        </button>
-                    </a>
-                </p>
             </div>
             <div>
                 <h3>
@@ -59,22 +52,24 @@
                 </h3>
                 <div>
                     <p>
-                        Version: <code>1.0.3</code>
+                        Version: <code>1.0.4</code>
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <div class="MainPanel">
-        <div>
-            Preview:
-            <br />
+        <p>
             <iframe src="@fileURL" width="485.41019661px" height="300px">
             </iframe>
-
-        </div>
-        <div>
-        </div>
+        </p>
+        <p>
+            <a href="@fileURL" download="Delayed Certificate">
+                <button class="Button">
+                    Download
+                </button>
+            </a>
+        </p>
     </div>
     <div class="RightPanel Sidebar">
         <div>
@@ -82,16 +77,31 @@
                 Property
             </h3>
             <div>
-                <p>
-                    Publisher: <input type="text" @bind="@publisher" class="Input" />
-                </p>
-                <p>
-                    Publication Time: <input type="text" @bind="@publicationTime" class="Input" />
-                </p>
-                <p>
-                    Delay Time: <input type="text" @bind="@delayTime" class="Input" />
-                </p>
+                <div>
+                    <h5>
+                        General
+                    </h5>
+                    <div>
+                        <p>
+                            Delay Time: <input type="text" @bind="@delayTime" class="Input" />
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h5>
+                        Publish
+                    </h5>
+                    <div>
+                        <p>
+                            Publisher: <input type="text" @bind="@publisher" class="Input" />
+                        </p>
+                        <p>
+                            Publication Time: <input type="text" @bind="@publicationTime" class="Input" />
+                        </p>
+                    </div>
+                </div>
             </div>
+
         </div>
 
     </div>
